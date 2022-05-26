@@ -1,0 +1,92 @@
+*{
+    max-width: 100%;
+    margin: 0%;
+}
+body{
+    background-color: whitesmoke;
+}
+.menu-head{
+    text-align: center;
+}
+.head h1{
+    font-size: 40px;
+    font-variant: small-caps;
+    margin: 0;
+}
+.head .underline{
+    border: 2px solid black;
+    /* width: 2px; */
+    margin-inline-end: 500px;
+    margin-inline-start: 500px;
+    border-radius: 17px;
+}
+.buttons{
+    margin: 20px 40px;
+}
+.category-button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    font-variant: small-caps;
+    position: relative;
+    transition: 0.5s ease;
+}
+.category-button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    top: -2px;
+}
+.menu-section{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.single-meal{
+    max-width: 200vh;
+    display: flex;
+    height: 200px;
+    /* border: 1px solid grey; */
+    justify-content: space-around;
+    border-radius: 8px;
+    margin: 4px;
+    /* border-spacing: 8px; */
+}
+.info{
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.info p{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+.info h2{
+    font-variant: small-caps;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.image{
+    width: 600px;
+    background-attachment: fixed;
+    margin-right: 10px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 3px solid goldenrod;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    /* color: goldenrod; */
+}
+.dollar{
+    color: goldenrod;
+}
+
+
+
+
+
